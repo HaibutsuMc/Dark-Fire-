@@ -1,0 +1,83 @@
+# VAI TRÒ (ROLE)
+Bạn là một Senior Full-Stack Developer và UI/UX Designer hàng đầu với hơn 10 năm kinh nghiệm thiết kế các nền tảng công nghệ AI và hệ sinh thái Gaming/Server/Modding. Nhiệm vụ của bạn là thiết kế và lập trình website mang tên **Dark Fire** – một nền tảng AI Việt hóa đa năng, sang trọng, hiện đại và hoạt động đầy đủ chức năng thực tế.
+
+# 1. THÔNG TIN DỰ ÁN (PROJECT OVERVIEW)
+- **Tên thương hiệu:** Dark Fire (Dark Fire AI Localization)
+- **Slogan:** *"Thắp Sáng Ngôn Ngữ Việt – Việt Hóa Mọi Plugin, Modpack Minecraft, App & Game Bằng AI"*
+- **Lĩnh vực hoạt động:** Nền tảng AI chuyên sâu tự động Việt hóa toàn diện mọi loại dữ liệu kỹ thuật sang tiếng Việt tự nhiên 100%: Plugin Server Minecraft (Spigot/Paper/Purpur), Modpack & Mod Minecraft, Ứng dụng Mobile (Android/iOS), Game PC/Indie, Phần mềm và Tài liệu kỹ thuật.
+- **Mục tiêu cốt lõi:** Giúp chủ Server Minecraft, Modder, Game thủ và Lập trình viên dịch hàng nghìn dòng file cấu hình/ngôn ngữ sang tiếng Việt chuẩn xác, bảo toàn tuyệt đối cấu trúc code, biến số (`%player%`, `{0}`, `%s`) và mã màu (`&a`, `§c`, `<gradient>`) mà không gây lỗi hệ thống.
+- **Ngôn ngữ hiển thị:** Tiếng Việt 100% (tự nhiên, sắc sảo, chuẩn thuật ngữ công nghệ, lập trình và gaming).
+
+# 2. PHONG CÁCH GIAO DIỆN & BẢNG MÀU DARK FIRE (UI & COLOR PALETTE)
+- **Phong cách chủ đạo:** Dark Tech Gaming kết hợp Glassmorphism (Kính mờ công nghệ cao) và hiệu ứng ánh sáng rực lửa (Ember & Fire Glow) tinh tế, đẳng cấp.
+- **Hệ thống màu sắc (Color System):**
+  - Chế độ mặc định: **Dark Mode** đặc trưng của Dark Fire (tích hợp nút chuyển đổi sang Light Mode mượt mà).
+  - Màu nền chính (Background): `#09090B` (Đen than sâu thẳm).
+  - Màu nền phụ / Card thư mục (Surface): `#121216` với hiệu ứng kính mờ (`backdrop-blur-md`) và viền mảnh `1px solid rgba(255, 255, 255, 0.08)`.
+  - Màu nhấn thương hiệu (Fire Primary): `#F97316` (Cam rực lửa - Vibrant Orange) kết hợp dải Gradient lửa từ `#EF4444` (Đỏ rực) -> `#F97316` (Cam cháy) -> `#F59E0B` (Vàng hổ phách).
+  - Màu chữ: `#FAFAFA` (Trắng sáng cho tiêu đề), `#A1A1AA` (Xám bạc cho mô tả), `#FB923C` (Cam sáng cho thông số/highlight).
+- **Typography:** Sử dụng Google Fonts `Plus Jakarta Sans` cho tiêu đề và văn bản giao diện, kết hợp `JetBrains Mono` cho cửa sổ hiển thị mã code và các định dạng file (`.yml`, `.json`, `.lang`, `.snbt`, `.xml`, `.jar`).
+
+# 3. CẤU TRÚC BỐ CỤC & HỆ THỐNG THƯ MỤC CHI TIẾT (LAYOUT & DIRECTORIES)
+Xây dựng trang web theo bố cục chuẩn SaaS hiện đại, bao gồm đầy đủ các thành phần sau:
+
+1. **Thanh điều hướng (Sticky Navbar):**
+   - Hiệu ứng kính mờ trong suốt khi cuộn trang (`backdrop-blur-lg`), viền dưới ánh cam mờ.
+   - Bên trái: Logo **Dark Fire** (kèm biểu tượng ngọn lửa cách điệu phát sáng gradient).
+   - Ở giữa: Các liên kết điều hướng (*Trang chủ*, *Thư mục Việt hóa*, *AI Studio trực tiếp*, *Kho bản dịch*, *Bảng giá*).
+   - Bên phải: Nút chuyển Dark/Light Mode, nút CTA rực lửa **"Việt Hóa Ngay"**. Tự động thu gọn thành Menu Mobile mượt mà trên điện thoại.
+
+2. **Hero Section (Khu vực mở đầu bùng nổ):**
+   - Nền có hiệu ứng đốm sáng lửa mờ (Ambient Fire Glow) và hiệu ứng hạt tàn lửa bay nhẹ tinh tế.
+   - Tiêu đề chính lớn: *"Dark Fire AI – Việt Hóa Trọn Bộ Plugin, Modpack & Ứng Dụng Trong Vài Giây"* (chữ "Dark Fire AI" và "Tiếng Việt" dùng hiệu ứng Gradient Lửa).
+   - Đoạn mô tả ngắn gọn: Công nghệ AI chuyên biệt hiểu sâu ngữ cảnh Gaming & Code, dịch trọn bộ thư mục chỉ với 1 cú nhấp chuột, giữ nguyên 100% mã màu Minecraft (`&a`, `§6`, MiniMessage) và biến hệ thống.
+   - 2 nút hành động: **"Mở AI Studio Miễn Phí"** (cuộn mượt xuống công cụ dịch trực tiếp) và **"Khám Phá Thư Mục"**.
+   - Khung minh họa trực quan bên phải: Mô phỏng cửa sổ chuyển đổi file thực tế của Dark Fire (từ file `messages.yml` của Plugin Minecraft hoặc `en_us.json` của Modpack sang tiếng Việt hoàn chỉnh có giữ nguyên mã màu).
+
+3. **Hệ Thống Thư Mục Việt Hóa Đa Năng (Interactive Directory Hub):**
+   - Tích hợp thanh **Tab lọc danh mục** (*Tất cả*, *Plugin Minecraft*, *Modpack & Mod*, *App Mobile*, *Game & Phần mềm*) và ô **Tìm kiếm định dạng file** hoạt động trực tiếp.
+   - Trình bày các thư mục chuyên biệt dưới dạng **Bento Grid** hiện đại (mỗi thẻ có icon rực lửa, badge định dạng hỗ trợ, số lượng file đã xử lý và nút "Sử dụng thư mục này" liên kết thẳng xuống AI Studio):
+     - **Thư mục 01: Plugin Server Minecraft** — Chuyên trị `config.yml`, `messages.yml`, `lang.yml`, `.properties` cho các plugin phổ biến (EssentialsX, MythicMobs, ItemsAdder, Oraxen, DeluxeMenus, CMI...). Giữ nguyên mã màu `&a`, `&#HEX`, `<gradient>` và PlaceholderAPI (`%player_name%`).
+     - **Thư mục 02: Modpack & Mod Minecraft** — Việt hóa `en_us.json`, `.lang`, `.snbt` (FTB Quests), KubeJS scripts, Patchouli books và tự động trích xuất/đóng gói lại file `.jar`.
+     - **Thư mục 03: Ứng Dụng Mobile (Android / iOS)** — Việt hóa `strings.xml`, `.arb` (Flutter), `.strings` (iOS), resource APK/IPA mà không làm hỏng thẻ XML hay cấu trúc giao diện.
+     - **Thư mục 04: Game PC & Indie (Unity / Unreal / Ren'Py)** — Dịch trọn bộ `.rpy`, `.po`, `.csv`, `.ini`, giữ nguyên tên nhân vật và sắc thái hội thoại.
+     - **Thư mục 05: Phần Mềm, Web & Discord Bot** — Hỗ trợ `.json`, `.yaml`, `.po`, `.ts/.js` locale cho website, phần mềm PC và bot Discord.
+     - **Thư mục 06: Truyện Tranh, Phụ Đề & Tài Liệu** — Dịch file phụ đề `.srt`, `.ass`, truyện chữ `.epub`, tài liệu hướng dẫn `.md`/`.txt` theo văn phong tùy chỉnh.
+     - **Thư mục 07: Kho Từ Điển Thuật Ngữ (Dark Fire Glossary)** — Thư mục lưu trữ bộ quy tắc dịch tên vật phẩm, kỹ năng, lore riêng cho từng Server/Modpack để AI dịch đồng nhất 100%.
+
+4. **Dark Fire AI Studio – Công Cụ Việt Hóa Trực Tiếp (Interactive Workbench):**
+   - Khu vực tương tác trung tâm cho phép người dùng trải nghiệm sức mạnh của Dark Fire ngay trên web:
+     - **Thanh công cụ trên cùng:** Chọn Thư mục mục tiêu (*Plugin Minecraft (.yml)*, *Modpack / FTB Quests (.json/.snbt)*, *Android App (.xml)*, *Game Script (.rpy)*), chọn Phong cách dịch (*Tự nhiên hiện đại*, *Hán Việt kiếm hiệp/RPG*, *Chuẩn thuật ngữ kỹ thuật*), và nút **"Nạp Code Mẫu"** để test nhanh từng loại.
+     - **Cột trái (Input Code / Kéo thả file):** Vùng nhập code hoặc kéo thả file trực tiếp (`.yml`, `.json`, `.xml`, `.txt`...) có đánh số dòng giống VS Code.
+     - **Nút trung tâm:** Nút **"Kích Hoạt AI Việt Hóa"** hiệu ứng phát sáng lửa, khi bấm sẽ chạy thanh tiến trình % và hiệu ứng quét dòng mượt mà.
+     - **Cột phải (Output Tiếng Việt):** Hiển thị kết quả đã dịch sang tiếng Việt, tô màu nổi bật các biến số/mã màu Minecraft (`&a`, `%player%`) được giữ nguyên, đi kèm nút **"Sao Chép"** và **"Tải File Về"** hoạt động thật bằng JavaScript.
+
+5. **Tính Năng Vượt Trội Của Dark Fire (Bento Features):**
+   - *Lá chắn bảo vệ Code & Mã màu (Code-Safe Shield)*: Tự động khóa các mã màu Minecraft (`&l`, `§6`, `<#FF5500>`), PlaceholderAPI (`%vault_eco_balance%`) và thẻ HTML/XML để AI không bao giờ dịch nhầm gây lỗi console.
+   - *Xử lý hàng loạt cả thư mục*: Kéo thả nguyên thư mục `plugins` hoặc `config` nặng hàng trăm file, AI tự động phân luồng dịch song song.
+   - *Nhận diện ngữ cảnh RPG & Kỹ thuật*: Phân biệt chính xác tên vật phẩm, lore trang bị, nhiệm vụ FTB Quests hay thông báo lỗi hệ thống.
+
+6. **Kho Bản Dịch Cộng Đồng & Bảng Giá (Showcase & Pricing):**
+   - **Kho bản dịch nổi bật:** Hiển thị 4 gói Việt hóa mẫu có sẵn (VD: *Bộ Plugin Cơ Bản Server Survival (EssentialsX, LuckPerms, ShopGUI+)*, *Plugin MythicMobs & ItemsAdder Full*, *Modpack Better MC [BMC4]*, *Modpack All The Mods 9*) có nút tải xuống demo.
+   - **Bảng giá dịch vụ:** Có nút gạt **Thanh toán Tháng / Năm** (tiết kiệm 25%) với 3 gói: *Tân Thủ (Miễn phí)*, *Dark Fire Pro (Khuyên dùng - viền lửa phát sáng)*, và *Server / Studio Team*.
+
+7. **FAQ & Footer:**
+   - Câu hỏi thường gặp dạng Accordion đóng/mở mượt mà (VD: *"Dịch file messages.yml của Plugin có bị lỗi thụt đầu dòng YAML không?"*, *"Dịch Modpack 300+ mod mất bao lâu?"*).
+   - Footer mang đậm dấu ấn **Dark Fire** với đầy đủ liên kết nhanh các thư mục, kênh Discord cộng đồng, thông tin bản quyền và form đăng ký nhận thông báo cập nhật.
+
+# 4. HIỆU ỨNG & TƯƠNG TÁC (ANIMATIONS & MICRO-INTERACTIONS)
+- **Hiệu ứng ánh sáng Dark Fire:** Các thẻ thư mục và nút CTA có hiệu ứng viền phát sáng màu cam đỏ (`box-shadow` gradient ấm) khi di chuột qua, kèm hiệu ứng ánh sáng quét ngang nút bấm.
+- **Scroll Reveal:** Các phần tử xuất hiện mượt mà (fade-up) khi cuộn trang.
+- **Tính năng JavaScript hoạt động thực tế 100%:**
+  - Bộ lọc Tab thư mục và ô tìm kiếm định dạng file lọc kết quả tức thì.
+  - Công cụ **Dark Fire AI Studio** hoạt động thật: có sẵn 4 bộ dữ liệu mẫu (Plugin Minecraft YAML, Modpack JSON, Android XML, Game Ren'Py); khi bấm *"Kích Hoạt AI Việt Hóa"* sẽ chạy hiệu ứng xử lý và dịch toàn bộ nội dung sang tiếng Việt chuẩn xác, hỗ trợ nút Copy và tải file kết quả về máy thật.
+  - Modal tải bản dịch / cài đặt API Key tùy chọn và thông báo Toast góc màn hình khi thao tác thành công.
+
+# 5. CÔNG NGHỆ SỬ DỤNG & TIÊU CHUẨN KỸ THUẬT (TECH STACK)
+- Sử dụng **HTML5 chuẩn ngữ nghĩa**, **Tailwind CSS** (nhúng qua CDN mới nhất), thư viện icon **Lucide Icons** (qua CDN) và **Vanilla JavaScript (ES6+)** thuần túy, sạch sẽ.
+- *(Ghi chú: Nếu chạy trên môi trường React như v0/Bolt/Cursor, hãy sử dụng React + Tailwind CSS + Lucide-react).*
+- Tối ưu Responsive hoàn hảo trên mọi thiết bị: Desktop (1440px), Tablet (768px) và Mobile (375px).
+
+# 6. YÊU CẦU ĐẦU RA (OUTPUT REQUIREMENTS)
+1. Hãy thiết kế kiến trúc giao diện và logic xử lý trước khi xuất code.
+2. Viết **toàn bộ mã nguồn hoàn chỉnh, đầy đủ 100%** trong một file duy nhất (`index.html`) để tôi có thể lưu lại và chạy ngay lập tức trên trình duyệt.
